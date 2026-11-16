@@ -1,0 +1,67 @@
+#head{
+  background-color: beige;
+   color: #6023c3;
+  font-size: 65px;
+  text-shadow: 1px 5px 3px red ;
+  font-family: sans-serif;
+}
+p{
+   background-color: rgb(249, 249, 220);
+   font-size:25px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e1cff6, #d5e4f8);
+}
+
+#box {
+    width: 70%;
+    min-height: 250px;
+    background-color: white;
+    color: black;
+    border: 2px solid #c4b5fd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
+#box{
+  height: 300px;
+  width: 300px;
+  font-size: 35px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#Download-btn{
+  padding: 10px 15px;
+    font-size: 20px;
+    background-color: #6a26d9;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#bg-color {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bg-color button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#font-btn button {
+    height: 32px;
+    padding: 5px 10px;
+    background-color: beige;
+    border: 1px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+}

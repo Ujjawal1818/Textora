@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+  <h1 id="head"> Textora</h1>
+  <p>Edit your thoughts freely</p>
+
+  <div id="box" contenteditable="true">Type your text here</div>
+  <br>
+  <button id="Download-btn">Download</button>
+  <div id="main">
+     <div id="first">
+        <h1>Choose your background colour</h1>
+        <div id="bg-color">
+            <button onclick="Bgcolor('red')" style="background-color: red;"></button>
+            <button onclick="Bgcolor('green')" style="background-color: green;"></button>
+            <button onclick="Bgcolor('blue')" style="background-color: blue;"></button>
+            <button onclick="Bgcolor('coral')" style="background-color: coral;"></button>
+            <button onclick="Bgcolor('yellow')" style="background-color: yellow;"></button>
+            <button onclick="Bgcolor('pink')" style="background-color: pink;"></button>
+            <button onclick="Bgcolor('purple')" style="background-color: purple;"></button>
+        </div>
+    </div>
+    <div id="second">
+        <h1>Choose your text colour</h1>
+        <div id="bg-color">
+            <button onclick="textColor('red')" style="background-color: red;"></button>
+            <button onclick="textColor('green')" style="background-color: green;"></button>
+            <button onclick="textColor('blue')" style="background-color: blue;"></button>
+            <button onclick="textColor('coral')" style="background-color: coral;"></button>
+            <button onclick="textColor('yellow')" style="background-color: yellow;"></button>
+            <button onclick="textColor('pink')" style="background-color: pink;"></button>
+            <button onclick="textColor('purple')" style="background-color: purple;"></button>
+        </div>
+    </div>
+    <div id="third">
+        <h1>Choose font style</h1>
+        <div id="font-btn">
+            <button onclick="changeFontFamily('cursive')" style="font-family:cursive;">Hello</button>
+             <button onclick="changeFontFamily('italic')" style="font-family:italic;">Hello</button>
+              <button onclick="changeFontFamily('Times New Roman')" style="font-family:Times New Roman;">Hello</button>
+               <button onclick="changeFontFamily('Georgia')" style="font-family:Georgia;">Hello</button>
+                <button onclick="changeFontFamily('Monospace')" style="font-family:Monospace;">Hello</button>
+                 <button onclick="changeFontFamily('Verdana')" style="font-family:Verdana;">Hello</button>
+        </div>
+    </div>
+  </div>
+</center>
+
+<br><br><br><br><br><br><br><br><br>
+    <script>
+        function Bgcolor(color){
+            document.getElementById("box").style.backgroundColor=color
+        }
+        function textColor(color){
+            document.getElementById("box").style.color=color;
+        }
+        function changeFontFamily(font){
+            document.getElementById("box").style.fontFamily = font;
+
+        }
+    </script>
+</body>
+</html>
